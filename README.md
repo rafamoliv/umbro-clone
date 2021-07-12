@@ -6,7 +6,7 @@
 
 - Projeto criado apenas para fins de estudo, sem qualquer tentativa de criar cópia para fins comerciais
 
-### Technologies
+### > Technologies
 
 - [ReactJS](https://pt-br.reactjs.org/)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
