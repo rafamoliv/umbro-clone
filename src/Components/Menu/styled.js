@@ -27,9 +27,25 @@ export const LinkTroca = styled.a`
   }
 `;
 
-export const MenuSelect = styled.div`
+export const ContainerMenu = styled.div`
   background-color: #000;
   height: 77px;
   display: flex;
   color: #fff;
 `;
+
+export const ContentMenu = styled.div`
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 40px;
+    height: 100%;
+  }
+`;
+
+export const MenuList = styled.div``;
+
+export const Pesquisa = styled.div``;
