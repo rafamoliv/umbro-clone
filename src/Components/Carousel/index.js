@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import dataCarousel from "./dataCarousel";
-import { Container } from "./styled";
+import { Container, InfoProduct } from "./styled";
 
 export default function Carousel() {
   const [current, setCurrent] = useState(0);
@@ -31,9 +31,12 @@ export default function Carousel() {
           <>
             <div className={index === current ? "slide active" : "slide"}>
               {index === current && <img src={obj.img} />}
-              <div className="infoProduct">
-                <p>{obj.title}</p>
-              </div>
+              <InfoProduct>
+                <h3>{obj.subTitle}</h3>
+                <h2>{obj.title}</h2>
+
+                <p>Comprar agora</p>
+              </InfoProduct>
             </div>
             <div className="sideBar" />
           </>
