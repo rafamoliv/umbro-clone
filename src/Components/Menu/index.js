@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Info, MenuSelect, Row, Col, P, LinkTroca } from "./styled";
+import { Container, Info, MenuSelect, P, LinkTroca } from "./styled";
 
 export default function Menu() {
   return (

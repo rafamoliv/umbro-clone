@@ -12,7 +12,7 @@ export const Info = styled.div`
 `;
 
 export const P = styled.p`
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   margin: 0 auto;
 `;
 
