@@ -13,6 +13,7 @@
 - [Styled Components](https://styled-components.com/)
 - [Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
 - [React-Router-Dom](https://reactrouter.com/web/guides/quick-start)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
 ### > How to Run
 
