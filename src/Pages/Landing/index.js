@@ -1,10 +1,12 @@
 import React from "react";
+import Menu from "../../Components/Menu";
+import { Container } from "./styled";
 
 function Landing() {
   return (
-    <>
-      <h1>Teste</h1>
-    </>
+    <Container>
+      <Menu />
+    </Container>
   );
 }
 
