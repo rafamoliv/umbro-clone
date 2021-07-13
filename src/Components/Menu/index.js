@@ -1,8 +1,9 @@
 import React from "react";
-import { Container, Info, ContainerMenu, P, LinkTroca, ContentMenu, MenuList, Pesquisa } from "./styled";
+import { Container, Info, ContainerMenu, P, LinkTroca, ContentMenu, MenuList, ListItem, Search, SearchInput } from "./styled";
 import logoUmbro from "../../Assets/Images/Icons/umbroSmall.png";
 import { GiShoppingBag } from "react-icons/gi";
 import { GoSearch } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 export default function Menu() {
   return (
@@ -11,24 +12,35 @@ export default function Menu() {
         <P>FRETE GRÁTIS BRASIL ACIMA DE R$ 149,90</P>
         <LinkTroca>Trocas e Devoluções</LinkTroca>
       </Info>
+
       <ContainerMenu>
         <ContentMenu>
-          <img src={logoUmbro} />
+          <Link src="/">
+            <img src={logoUmbro} />
+          </Link>
+
           <MenuList>
-            <ul>
-              <li>Clubes</li>
-              <li>Roupas</li>
-              <li>LifeStyle</li>
-              <li>Chuteiras</li>
-              <li>Acessórios</li>
-              <li>Outlet</li>
-            </ul>
+            <ListItem>Clubes</ListItem>
+            <ListItem>Roupas</ListItem>
+            <ListItem>LifeStyle</ListItem>
+            <ListItem>Chuteiras</ListItem>
+            <ListItem>Acessórios</ListItem>
+            <ListItem>Outlet</ListItem>
           </MenuList>
-          <Pesquisa>
-            <input placeholder="Buscar" />
+
+          <Search>
+            <SearchInput placeholder="Buscar" />
             <GoSearch />
-          </Pesquisa>
-          <span>Faça seu login</span>
+          </Search>
+
+          <span>
+            Faça
+            <br />
+            seu
+            <br />
+            login
+          </span>
+
           <GiShoppingBag />
         </ContentMenu>
       </ContainerMenu>
