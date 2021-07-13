@@ -5,6 +5,7 @@
 ### > Clone do site oficial da [UMBRO](https://www.umbro.com.br/?gclid=Cj0KCQjw0K-HBhDDARIsAFJ6UGiDz2JQ82K29BvvbIZs5QGeK2G8TExnpwqKk9klfy44-RhloTbSwZwaAqw2EALw_wcB):
 
 - Projeto criado apenas para fins de estudo, sem qualquer tentativa de criar cópia para fins comerciais
+- Foram feitas algumas mudanças para se adequar ao gosto pessoal
 
 ### > Technologies
 

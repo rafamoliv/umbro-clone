@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  position: sticky;
+  top: 0;
+
   width: 100vw;
   text-transform: uppercase;
+  z-index: 999;
 `;
 
 export const Info = styled.div`
