@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
 html,
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: Trade Gothic LT Standard, Arial, Hevetica, sans-serif;
+  font-family: "Roboto", Trade Gothic LT Standard, Arial, Hevetica, sans-serif;
   overflow-x: hidden;
 }
