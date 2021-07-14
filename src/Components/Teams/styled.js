@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  margin-top: 10px;
+`;
 
 export const TeamsList = styled.ul`
   list-style: none;

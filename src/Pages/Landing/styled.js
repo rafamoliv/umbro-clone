@@ -14,6 +14,7 @@ export const Body = styled.div`
     text-align: center;
     text-transform: uppercase;
     font-size: 1.2rem;
+    margin-top: 50px;
   }
 `;
 
