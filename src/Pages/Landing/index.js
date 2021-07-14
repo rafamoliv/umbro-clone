@@ -9,6 +9,7 @@ import Teams from "../../Components/Teams";
 import Category from "../../Components/Category";
 import Products from "../../Components/Products";
 import Newsletter from "../../Components/Newsletter";
+import Footer from "../../Components/Footer";
 
 export default function Landing() {
   return (
@@ -37,6 +38,7 @@ export default function Landing() {
       </Youtube>
 
       <Newsletter />
+      <Footer />
     </Container>
   );
 }
