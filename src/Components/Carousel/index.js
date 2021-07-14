@@ -30,7 +30,7 @@ export default function Carousel() {
         return (
           <>
             <div className={index === current ? "slide active" : "slide"}>
-              {index === current && <img src={obj.img} />}
+              {index === current && <img src={obj.img} alt={obj.title} />}
               <InfoProduct>
                 <h3>{obj.subTitle}</h3>
                 <h2>{obj.title}</h2>

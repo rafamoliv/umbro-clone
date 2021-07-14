@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Carousel from "../../Components/Carousel";
-import Menu from "../../Components/Menu";
-import Teams from "../../Components/Teams";
 import { Banner, Body, Container } from "./styled";
 import ImgBanner from "../../Assets/Images/Banners/bannerMiddle.jpg";
 
-function Landing() {
+import Carousel from "../../Components/Carousel";
+import Menu from "../../Components/Menu";
+import Teams from "../../Components/Teams";
+
+export default function Landing() {
   return (
     <Container>
       <Menu />
@@ -17,7 +18,7 @@ function Landing() {
         <Teams />
 
         <Link to="/">
-          <Banner src={ImgBanner} />
+          <Banner src={ImgBanner} alt="Banner Comercial" />
         </Link>
 
         <h3>Seleção de Inverno</h3>
@@ -25,5 +26,3 @@ function Landing() {
     </Container>
   );
 }
-
-export default Landing;

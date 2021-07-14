@@ -16,7 +16,7 @@ export default function Menu() {
       <ContainerMenu>
         <ContentMenu>
           <Link src="/">
-            <img src={logoUmbro} />
+            <img src={logoUmbro} alt="Logo UMBRO" />
           </Link>
 
           <MenuList>
