@@ -8,6 +8,7 @@ import Menu from "../../Components/Menu";
 import Teams from "../../Components/Teams";
 import Category from "../../Components/Category";
 import Products from "../../Components/Products";
+import Newsletter from "../../Components/Newsletter";
 
 export default function Landing() {
   return (
@@ -34,6 +35,8 @@ export default function Landing() {
       <Youtube>
         <iframe title="Umbro Collections" src="https://www.youtube.com/embed/mlDZWFNR0dM?enablejsapi=1&origin=https%3A%2F%2Fwww.umbro.com.br" />
       </Youtube>
+
+      <Newsletter />
     </Container>
   );
 }
