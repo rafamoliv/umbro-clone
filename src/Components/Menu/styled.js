@@ -7,6 +7,10 @@ export const Container = styled.div`
   width: 100vw;
   text-transform: uppercase;
   z-index: 999;
+
+  svg {
+    color: #fff;
+  }
 `;
 
 export const Info = styled.div`

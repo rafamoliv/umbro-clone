@@ -41,7 +41,9 @@ export default function Menu() {
             login
           </span>
 
-          <GiShoppingBag />
+          <Link to="/">
+            <GiShoppingBag />
+          </Link>
         </ContentMenu>
       </ContainerMenu>
     </Container>
