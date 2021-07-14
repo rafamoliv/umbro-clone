@@ -22,3 +22,12 @@ export const Banner = styled.img`
   max-width: 110vw !important;
   margin: 0 0 0 -10% !important;
 `;
+
+export const Youtube = styled.div`
+  margin-top: 60px;
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+`;

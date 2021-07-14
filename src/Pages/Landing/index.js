@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Banner, Body, Container } from "./styled";
+import { Banner, Body, Container, Youtube } from "./styled";
 import ImgBanner from "../../Assets/Images/Banners/bannerMiddle.jpg";
 
 import Carousel from "../../Components/Carousel";
@@ -16,8 +16,10 @@ export default function Landing() {
       <Carousel />
 
       <Body>
-        <h3>Nós Somos</h3>
-        <Teams />
+        <div>
+          <h3>Nós Somos</h3>
+          <Teams />
+        </div>
 
         <Category />
 
@@ -28,6 +30,10 @@ export default function Landing() {
         <h3>Seleção de Inverno</h3>
         <Products />
       </Body>
+
+      <Youtube>
+        <iframe title="Umbro Collections" src="https://www.youtube.com/embed/mlDZWFNR0dM?enablejsapi=1&origin=https%3A%2F%2Fwww.umbro.com.br" />
+      </Youtube>
     </Container>
   );
 }
