@@ -16,3 +16,8 @@ export const Body = styled.div`
     font-size: 1.2rem;
   }
 `;
+
+export const Banner = styled.img`
+  max-width: 110vw !important;
+  margin: 0 0 0 -10% !important;
+`;
