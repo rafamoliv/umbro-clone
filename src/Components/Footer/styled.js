@@ -4,6 +4,10 @@ export const Container = styled.div`
   background-color: #000;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
+  @media (max-width: 425px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const Sections = styled.div`

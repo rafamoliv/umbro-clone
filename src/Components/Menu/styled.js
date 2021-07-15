@@ -4,12 +4,28 @@ export const Container = styled.div`
   position: sticky;
   top: 0;
 
-  width: 100vw;
+  width: 100%;
   text-transform: uppercase;
   z-index: 999;
 
   svg {
     color: #fff;
+  }
+
+  @media (max-width: 1200px) {
+    li:last-child {
+      margin-right: 150px !important;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    li {
+      margin: 0 10px !important;
+    }
+
+    li:last-child {
+      margin-right: 75px !important;
+    }
   }
 `;
 
@@ -45,7 +61,7 @@ export const ContainerMenu = styled.div`
 `;
 
 export const ContentMenu = styled.div`
-  max-width: 95vw;
+  max-width: 95%;
   height: 100%;
   display: flex;
   margin: auto;
@@ -73,6 +89,10 @@ export const ContentMenu = styled.div`
 export const MenuList = styled.ul`
   list-style: none;
   padding: 0;
+
+  li:last-child {
+    margin-right: 200px;
+  }
 `;
 
 export const ListItem = styled.li`
@@ -91,7 +111,6 @@ export const Search = styled.div`
   height: 38px;
   width: 239px;
   display: flex;
-  margin-left: 15vw;
 
   background-color: #fff;
   border-radius: 4px;

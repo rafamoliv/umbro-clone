@@ -4,6 +4,12 @@ export const Container = styled.div`
   width: 100vw;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 425px) {
+    iframe {
+      display: none;
+    }
+  }
 `;
 
 export const Body = styled.div`

@@ -2,6 +2,30 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin-top: 10px;
+
+  @media (max-width: 768px) {
+    li {
+      margin: 0 10px !important;
+    }
+
+    img {
+      max-height: 50px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    ul {
+      grid-template-columns: repeat(2, 1fr);
+
+      /* li:nth-child(7) {
+        margin-left: 215px !important;
+      } */
+    }
+
+    img {
+      max-height: 57px;
+    }
+  }
 `;
 
 export const TeamsList = styled.ul`

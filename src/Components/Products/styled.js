@@ -6,6 +6,28 @@ export const Container = styled.div`
   a {
     text-decoration: none;
   }
+
+  @media (max-width: 1024px) {
+    img {
+      height: 60% !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    img {
+      height: 50% !important;
+    }
+  }
+
+  @media (max-width: 425px) {
+    ul {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    img {
+      height: 60% !important;
+    }
+  }
 `;
 
 export const ProductsList = styled.ul`

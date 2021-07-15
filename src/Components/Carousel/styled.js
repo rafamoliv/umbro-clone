@@ -53,6 +53,20 @@ export const Container = styled.div`
     background-color: #202029;
     opacity: 0.2;
   }
+
+  @media (max-width: 425px) {
+    p {
+      font-size: 0.5rem !important;
+    }
+
+    .right-arrow {
+      left: 80px !important;
+    }
+
+    .left-arrow {
+      left: 35px !important;
+    }
+  }
 `;
 
 export const InfoProduct = styled.div`
@@ -91,6 +105,24 @@ export const InfoProduct = styled.div`
       opacity: 0.8;
       cursor: pointer;
       color: #202029;
+    }
+  }
+
+  @media (max-width: 425px) {
+    h2 {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+
+    h3 {
+      font-size: 0.5rem;
+    }
+
+    p {
+      font-size: 0.5rem;
+      width: 100px;
+      padding: 2px;
+      margin-top: 15px;
     }
   }
 `;

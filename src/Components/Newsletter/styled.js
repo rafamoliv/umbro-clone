@@ -16,6 +16,17 @@ export const InfoContent = styled.div`
     max-width: 64px;
     max-height: 48px;
   }
+
+  @media (max-width: 425px) {
+    display: list-item;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      position: relative;
+      left: 42%;
+    }
+  }
 `;
 
 export const InfoText = styled.div`
@@ -38,6 +49,19 @@ export const AssignNews = styled.div`
 
   input:nth-child(2) {
     margin: 0 8px 0 8px;
+  }
+
+  @media (max-width: 425px) {
+    display: block;
+
+    input {
+      margin: auto !important;
+      width: 92%;
+    }
+
+    button {
+      width: 100%;
+    }
   }
 `;
 

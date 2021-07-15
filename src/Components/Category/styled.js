@@ -2,6 +2,35 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin-bottom: 60px;
+
+  @media (max-width: 1024px) {
+    img {
+      width: 253px !important;
+      height: 158px !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 168px !important;
+      height: 105px !important;
+    }
+
+    h3 {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 425px) {
+    img {
+      width: 100% !important;
+      height: 180px !important;
+    }
+
+    ul {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 `;
 
 export const CategoryList = styled.ul`
