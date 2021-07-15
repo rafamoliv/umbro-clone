@@ -1,11 +1,15 @@
-# Desafio #01 - Hiring Coders 21
+# Challenge #01 - Hiring Coders 21
 
-## Projeto E-Commerce: Site Oficial / Landing Page
+## Project: _E-Commerce: Official Website / Landing Page_
 
-### > Clone do site oficial da [UMBRO](https://www.umbro.com.br/?gclid=Cj0KCQjw0K-HBhDDARIsAFJ6UGiDz2JQ82K29BvvbIZs5QGeK2G8TExnpwqKk9klfy44-RhloTbSwZwaAqw2EALw_wcB):
+### > Clone of [UMBRO's](https://www.umbro.com.br/?gclid=Cj0KCQjw0K-HBhDDARIsAFJ6UGiDz2JQ82K29BvvbIZs5QGeK2G8TExnpwqKk9klfy44-RhloTbSwZwaAqw2EALw_wcB) official website:
 
-- Projeto criado apenas para fins de estudo, sem qualquer tentativa de criar cópia para fins comerciais
-- Foram feitas algumas mudanças para se adequar ao gosto pessoal
+- Project created for study purposes only, without any attempt to create copy for commercial purposes
+- Some changes have been made to suit personal taste
+
+### > Why a copy of Umbro's website?
+
+- I wanted to challenge myself to be able to create a professional website made by VTEX
 
 ### > See the result in
 
