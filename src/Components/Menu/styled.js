@@ -27,6 +27,34 @@ export const Container = styled.div`
       margin-right: 75px !important;
     }
   }
+
+  @media (max-width: 768px) {
+    img {
+      margin-right: 75px !important;
+    }
+
+    ul {
+      display: none;
+    }
+
+    span {
+      margin: 0 50px 0 50px !important;
+    }
+  }
+
+  @media (max-width: 425px) {
+    img {
+      margin-right: 20px !important;
+    }
+
+    ul {
+      display: none;
+    }
+
+    span {
+      margin: 0 10px 0 10px !important;
+    }
+  }
 `;
 
 export const Info = styled.div`
